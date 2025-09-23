@@ -90,9 +90,6 @@
         <mxCell id="6DqA5T2U4c7ui9sqT9fD-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="6DqA5T2U4c7ui9sqT9fD-16" target="6DqA5T2U4c7ui9sqT9fD-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6DqA5T2U4c7ui9sqT9fD-18" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=5.66668701171875;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="15" width="10" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="6DqA5T2U4c7ui9sqT9fD-24" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-50" y="220" width="140" height="60" as="geometry" />
         </mxCell>
@@ -114,14 +111,14 @@
         <mxCell id="6DqA5T2U4c7ui9sqT9fD-29" value="Потеря данных" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="240" y="-100" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6DqA5T2U4c7ui9sqT9fD-30" value="Потеря данных" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="827" y="10" width="120" height="30" as="geometry" />
+        <mxCell id="6DqA5T2U4c7ui9sqT9fD-30" value="Значимые риски" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="50" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6DqA5T2U4c7ui9sqT9fD-31" value="Некачественные данные" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="440" y="-100" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6DqA5T2U4c7ui9sqT9fD-32" value="Некачественные данные" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="690" y="10" width="120" height="30" as="geometry" />
+        <mxCell id="6DqA5T2U4c7ui9sqT9fD-32" value="Высокие риски" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="50" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6DqA5T2U4c7ui9sqT9fD-35" value="Искажение данных" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-220" y="260" width="120" height="30" as="geometry" />
@@ -376,6 +373,33 @@
         </mxCell>
         <mxCell id="6DqA5T2U4c7ui9sqT9fD-124" value="Утечка данных" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="770" y="800" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DqA5T2U4c7ui9sqT9fD-127" value="Незначительные или умеренные риски" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DqA5T2U4c7ui9sqT9fD-128" value="Во всех БД в той или иной степени содержится персональная или конфиденциальная информация. По 152-ФЗ для хранения данныхе необходимо солюдать меры безопасности" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="120" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DqA5T2U4c7ui9sqT9fD-129" value="Искажение данных может повлечь финансовые убытики компании, а также потерю лояльности клиентов" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="180" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DqA5T2U4c7ui9sqT9fD-130" value="Для снижения рисков утери данных производится создание бэкапов. Хранить бэкапы необходимо в отдельном защищенном месте с ограниченным доступом круга лиц" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="240" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DqA5T2U4c7ui9sqT9fD-131" value="&quot;Некачественные данные&quot; в зависимости от узла хранения информации относятся от незначительного риска, до критического. В первую очередь Публичные данные - чревато потерей доверия и лояльности клиентов. На внутренних - накачественные данные могут привести к финансовым убыткам" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="300" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DqA5T2U4c7ui9sqT9fD-132" value="Публичные данные - основной риск Искажение. В первую очередь последствия репутационных рисков" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="360" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DqA5T2U4c7ui9sqT9fD-133" value="Внутренние данные - некачественные, искажение, потеря. Может приводить к сбоям в опер деятельности" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="410" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DqA5T2U4c7ui9sqT9fD-134" value="Секретные данные - риск утечка. Самый высокий риск к работе самой организации и в целом нарушению требований законодательства" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="460" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DqA5T2U4c7ui9sqT9fD-135" value="Конфиденциальные данные - утечка и потеря данных. Может приводить к финасновым потерям, а также к существенным правовым последствиям. Вплоть до приостановки деятельности и даже банкротству" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="510" width="520" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
